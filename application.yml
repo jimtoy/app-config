@@ -8,3 +8,7 @@ logging: # <----New sections below
   level:
     io:
       pivotal: DEBUG
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
